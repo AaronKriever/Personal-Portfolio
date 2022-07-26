@@ -1,0 +1,77 @@
+/* Universal selectors */
+
+* {
+    font-family:'Arial';
+    box-sizing:border-box;
+}
+
+
+header {
+    width: 300px;
+    height:150px;
+    color:black;
+    background-color: peru;
+    border-style: solid;
+}
+
+h1{
+    color:black;
+    text-decoration:dotted;
+    text-align:center;
+    padding: 10px;
+}
+
+h2 {
+    color:black;
+    text-decoration:underline;
+}
+
+body {
+    color:black;
+    background-color: steelblue;
+}
+
+main {
+    display:flex;
+    padding: 25px;
+    background-image:url("digital-marketing-meeting copy.jpg");
+
+}
+
+.hero {
+    margin-top: 25px;
+    margin-bottom:25px;
+    
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 25px;
+    text-align: center;
+    border-style:dashed;
+    border-width: 5px;
+}
+
+aside {
+    width: 300px;
+    height: 275px;
+    background-color:peru;
+    text-align:left;
+    border-style:solid;
+}
+
+h4 {
+    color:black;
+    text-decoration:underline;
+    text-align:center;
+}
+
+footer {
+    width: 300px;
+    height:100px;
+    color:black;
+    background-color:peru;
+    border-style:solid;
+    margin: 0 auto;
+    
+}
